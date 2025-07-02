@@ -89,13 +89,13 @@ ________________________________________________________________________________
 
 | Module No | Module Title                         | Weeks       | Difficulty        |
 |-----------|--------------------------------------|-------------|-------------------|
-| 1         | Data Collection & Web Scraping       | Weeks 1–4   | Intermediate      |
-| 2         | Data Cleaning & Preprocessing        | Weeks 5–7   | Hard              |
-| 3         | Data Storage & Management            | Weeks 8–11  | Connected Tools   |
-| 4         | Statistics with R                    | Weeks 12–13 | Medium            |
-| 5         | Data Visualization                   | Weeks 14–15 | Medium            |
-| 6         | Machine Learning Basics              | Weeks 16–18 | Hard              |
-| 7         | Capstone Project                     | Weeks 19–21 | Hard              |
+| 1         | Data Collection & Web Scraping       | Weeks 1–3   | Intermediate      |
+| 2         | Data Cleaning & Preprocessing        | Weeks 4–8   | Hard              |
+| 3         | Data Storage & Management            | Weeks 9–12  | Connected Tools   |
+| 4         | Statistics with R                    | Weeks 13–15 | Medium            |
+| 5         | Data Visualization                   | Weeks 16–17 | Medium            |
+| 6         | Machine Learning Basics              | Weeks 18–22 | Hard              |
+| 7         | Capstone Project                     | Weeks 23–27 | Hard              |
 
 ---
 
