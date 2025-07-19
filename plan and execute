@@ -1,136 +1,16 @@
-You got it! Here's your full **📊 Full Stack Insights Analyst – 120-Day Career Launchpad**, now **with exact dates** added for every study day, starting from **📅 July 23, 2025** and accounting for:
 
-* ✅ 2 hrs/day study
-* ⛔ Skipping Sundays, Mondays, major holidays & exam blocks
-* ⏳ Ending on **March 28, 2026**
 
----
+| Module | Adjusted Dates | Workdays | Hours/Day | Total Hours |
+|--------|---------------|----------|-----------|-------------|
+| **1. Data Collection** | Jul 23 - Aug 6 | 10 | 3 | 30 |
+| **2. Data Cleaning** | Aug 7 - Aug 22 | 10 | 3 | 30 |
+| **3. Data Storage** | Aug 23 - Sep 12 | 15 | 3 | 45 |
+| **4. Visualization** | Sep 13 - Oct 3 | 15 | 3 | 45 |
+| **5. Stats with R** | Oct 4 - Nov 5 | 20 | 3 | 60 |
+| **6. NLP** | Nov 8 - Dec 10 | 20 | 3 | 60 |
+| **7. ML** | Dec 11 - Jan 14 | 20 | 3 | 60 |
+| **8. Portfolio** | Jan 15 - Jan 21 | 10 | 3 | 30 |
 
-I'll break it into **modules with date-mapped day numbers**.
-
----
-
-### 📦 Module 1: Data Collection & Web Scraping (🟢 Easy – 10 Days)
-
-📅 **Duration:** July 23 – Aug 9, 2025
-
-| Day | Date        | Topic                                      | Tools                  | Task                                 |
-| --- | ----------- | ------------------------------------------ | ---------------------- | ------------------------------------ |
-| 1   | 23-Jul-2025 | Data Types: Structured, Semi, Unstructured | -                      | Classify 10 data sources             |
-| 2   | 24-Jul-2025 | File Handling: `open()`, modes             | Python                 | Read/write `.txt` file               |
-| 3   | 25-Jul-2025 | CSV Files with Pandas                      | Pandas                 | Load, clean, save CSV                |
-| 4   | 26-Jul-2025 | Excel Handling                             | Pandas                 | Import multi-sheet Excel             |
-| 5   | 30-Jul-2025 | Working with JSON                          | json, Pandas           | Convert JSON to DataFrame            |
-| 6   | 31-Jul-2025 | Web Scraping Basics + HTML Tags            | BeautifulSoup          | Extract page titles, links           |
-| 7   | 01-Aug-2025 | Lists & Tables from Web                    | BeautifulSoup + Pandas | Scrape structured HTML               |
-| 8   | 02-Aug-2025 | Pagination Handling                        | Python Loops           | Scrape multiple pages                |
-| 9   | 06-Aug-2025 | APIs for Data Access                       | requests, JSON         | Call public API, save data           |
-| 10  | 07-Aug-2025 | 🛠️ Mini Project                           | All Tools              | Collect and clean real-world dataset |
+**Total:** 120 days × 3 hours = **360 hours**
 
 ---
-
-### 📦 Module 2: Data Cleaning & Preprocessing (🟢 Easy – 10 Days)
-
-📅 **Duration:** Aug 8 – Sep 4, 2025
-
-| Day | Date        | Topic                   | Tools          | Task                                 |
-| --- | ----------- | ----------------------- | -------------- | ------------------------------------ |
-| 11  | 08-Aug-2025 | Handling Missing Values | Pandas         | Use `fillna`, `dropna`               |
-| 12  | 09-Aug-2025 | Duplicates & Data Types | Pandas         | `drop_duplicates`, `astype()`        |
-| 13  | 13-Aug-2025 | Date & Time Cleanup     | Pandas         | Use `pd.to_datetime()`               |
-| 14  | 14-Aug-2025 | String Cleaning         | Python         | `strip()`, `lower()`, `replace()`    |
-| 15  | 26-Aug-2025 | Outlier Detection       | IQR, Z-score   | Remove or fix outliers               |
-| 16  | 28-Aug-2025 | Apply/map/lambda        | Python         | Clean columns dynamically            |
-| 17  | 29-Aug-2025 | Encoding Categories     | Pandas         | Label Encoding                       |
-| 18  | 30-Aug-2025 | Scaling & Normalization | sklearn        | Use `MinMaxScaler`, `StandardScaler` |
-| 19  | 03-Sep-2025 | Save Processed Data     | Pandas         | `to_csv()`, `to_excel()`             |
-| 20  | 04-Sep-2025 | 🧹 Clean-up Project     | Python, Pandas | Full clean cycle                     |
-
----
-
-### 📦 Module 3: Data Storage & Transformation (🟡 Medium – 15 Days)
-
-📅 **Duration:** Sep 6 – Oct 4, 2025
-
-| Day   | Date             | Topic                     | Tools              | Task                    |
-| ----- | ---------------- | ------------------------- | ------------------ | ----------------------- |
-| 21    | 06-Sep-2025      | SQL Basics                | SQLite / MySQL     | Query data              |
-| 22    | 10-Sep-2025      | SQL Joins & Aggregations  | SQL                | Combine datasets        |
-| 23    | 11-Sep-2025      | Create Tables & Insert    | SQL                | From cleaned CSV        |
-| 24    | 12-Sep-2025      | SQL in Python             | sqlite3            | Automate queries        |
-| 25    | 13-Sep-2025      | NoSQL Overview            | MongoDB            | Understand collections  |
-| 26    | 17-Sep-2025      | JSON in MongoDB           | MongoDB Compass    | Import & query JSON     |
-| 27    | 18-Sep-2025      | SQL ↔ MongoDB Conversion  | Python             | Create format converter |
-| 28    | 19-Sep-2025      | Data Transformation Logic | Pandas             | `melt()`, `pivot()`     |
-| 29    | 20-Sep-2025      | Pipeline Design           | All Tools          | Raw → Structured → DB   |
-| 30–35 | 24-Sep to 04-Oct | 🧱 DB Mini Project        | Python + SQL/Mongo | ETL pipeline project    |
-
----
-
-### 📦 Module 4: Data Visualization (🟡 Medium – 15 Days)
-
-📅 **Duration:** Oct 14 – Oct 31, 2025
-
-| Day   | Date        | Topic                       | Tools      | Task                    |
-| ----- | ----------- | --------------------------- | ---------- | ----------------------- |
-| 36    | 14-Oct-2025 | Chart Types & Choosing      | -          | Match chart to question |
-| 37    | 15-Oct-2025 | Bar, Line, Pie Charts       | Matplotlib | Plot product sales      |
-| 38    | 16-Oct-2025 | Histogram, Boxplot, Scatter | Seaborn    | Explore data            |
-| 39    | 23-Oct-2025 | Styling & Themes            | Seaborn    | Layouts                 |
-| 40    | 24-Oct-2025 | Viz in R                    | ggplot2    | Grammar of graphics     |
-| 41    | 25-Oct-2025 | Power BI Setup              | Power BI   | Load CSV                |
-| 42    | 29-Oct-2025 | Power BI Filters/KPIs       | Power BI   | Interactive dashboard   |
-| 43    | 30-Oct-2025 | UX Design                   | Power BI   | Layout practice         |
-| 44    | 31-Oct-2025 | Interactive Visuals         | Power BI   | Tooltips/slicers        |
-| 45–50 | 01–09 Nov   | 🎨 Viz Project              | All Tools  | Final dashboard         |
-
----
-
-### 📦 Module 5: Statistics with R (🔴 Hard – 20 Days)
-
-📅 **Duration:** Dec 9 – Jan 10, 2026
-
-| Days  | Topics Covered                | Dates          |
-| ----- | ----------------------------- | -------------- |
-| 51–60 | R Basics → Hypothesis Testing | 09–20 Dec 2025 |
-| 61–70 | ANOVA → Stats Mini Project    | 06–10 Jan 2026 |
-
----
-
-### 📦 Module 6: NLP (🔴 Hard – 20 Days)
-
-📅 **Duration:** Jan 14 – Jan 31, 2026
-
-| Days  | Topics Covered       | Dates          |
-| ----- | -------------------- | -------------- |
-| 71–80 | NLP Basics → Project | 14–31 Jan 2026 |
-
----
-
-### 📦 Module 7: Machine Learning (🔴 Hard – 20 Days)
-
-📅 **Duration:** Feb 1 – Feb 28, 2026
-
-| Days   | Topics Covered                     | Dates          |
-| ------ | ---------------------------------- | -------------- |
-| 81–100 | Supervised/Unsupervised → Capstone | 01–28 Feb 2026 |
-
----
-
-### 📦 Module 8: Career Prep (🟢 Easy – 10 Days)
-
-📅 **Duration:** Mar 3 – Mar 28, 2026
-
-| Days    | Topics Covered                | Dates          |
-| ------- | ----------------------------- | -------------- |
-| 111–120 | Resume, GitHub, Final Wrap-up | 03–28 Mar 2026 |
-
----
-
-Would you like this:
-
-* Exported as a PDF or Markdown file?
-* Turned into a printable **calendar view**?
-* Shared as a tracker spreadsheet?
-
-Just say the word!
