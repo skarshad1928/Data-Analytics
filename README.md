@@ -1,150 +1,166 @@
-# 📊 Full Stack Insights Analyst Syllabus: 80-Day Plan (Module-wise Breakdown)
+# 📊 Full Stack Insights Analyst – 80-Day Career Launchpad
 
-📅 **Duration:** 80 Days (8 Modules × 10 Days Each)  
-🌐 **Focus:** Python, R, SQL, Power BI, NLP, Web Scraping, ML  
-📆 **Schedule:** Ideal for Wed, Thu, Fri (3 days/week)
-
----
-
-## 📦 Module 1: Data Collection & Web Scraping (Day 1 - Day 10)
-
-| Day | Topic | Tools | Task |
-|-----|-------|--------|------|
-| 1 | Raw Data Types: Structured, Semi, Unstructured | - | Classify 10 sources |
-| 2 | File Handling in Python: open(), modes | Python | Read/write `.txt` file |
-| 3 | CSV Handling with Pandas | Pandas | Load, modify, save CSV |
-| 4 | Excel File Handling | Pandas | Handle multiple sheets |
-| 5 | JSON File Handling | json, Pandas | Convert JSON to DataFrame |
-| 6 | Web Scraping Basics, HTML Tags | BeautifulSoup | Extract title, links |
-| 7 | Scraping Lists & Tables | BeautifulSoup + Pandas | Extract HTML table |
-| 8 | Pagination Scraping | Loop + Soup | Scrape multiple pages |
-| 9 | APIs + Requests | requests, JSON | Call API, convert to CSV |
-| 10 | Recap + Mini Project | All | Collect & structure raw data |
+📅 **Duration:** 80 Days (8 Modules × 10 Days)  
+🧠 **Goal:** Become job-ready in data collection, transformation, visualization, analysis & machine learning  
+📆 **Recommended Pace:** 2 hrs/day × 4–5 days/week (~13–17 weeks)
 
 ---
 
-## 📦 Module 2: Data Cleaning & Preprocessing (Day 11 - Day 20)
+## 📦 Module 1: Data Collection & Web Scraping (Day 1–10)
+
+🔍 *From raw data to structured gold.*
 
 | Day | Topic | Tools | Task |
 |-----|-------|--------|------|
-| 11 | Missing Values | Pandas | fillna, dropna |
-| 12 | Duplicates & Type Conversion | Pandas | remove, astype |
-| 13 | DateTime Cleaning | Pandas | pd.to_datetime |
-| 14 | String Cleaning | Python | strip(), lower(), replace() |
-| 15 | Outlier Handling | IQR/Z-score | Remove/fix outliers |
-| 16 | Apply(), map(), lambda | Python | Column-wise cleanup |
-| 17 | Categorical Encoding | Pandas | Label Encoding |
-| 18 | Scaling/Normalization | sklearn | MinMaxScaler, StandardScaler |
-| 19 | Save Cleaned Data | Pandas | to_csv(), to_excel() |
-| 20 | Wrap-up + Clean Project | All | Full clean cycle on dataset |
+| 1 | Data Types: Structured, Semi, Unstructured | - | Classify 10 data sources |
+| 2 | File Handling: `open()`, modes | Python | Read/write `.txt` file |
+| 3 | CSV Files with Pandas | Pandas | Load, clean, save CSV |
+| 4 | Excel Handling | Pandas | Import multi-sheet Excel |
+| 5 | Working with JSON | json, Pandas | Convert JSON to DataFrame |
+| 6 | Web Scraping Basics + HTML Tags | BeautifulSoup | Extract page titles, links |
+| 7 | Lists & Tables from Web | BeautifulSoup + Pandas | Scrape structured HTML |
+| 8 | Pagination Handling | Python Loops | Scrape multiple pages |
+| 9 | APIs for Data Access | requests, JSON | Call public API, save data |
+| 10 | 🛠️ Mini Project | All Tools | Collect and clean real-world dataset |
 
 ---
 
-## 📦 Module 3: Data Storage & Transformation (Day 21 - Day 30)
+## 📦 Module 2: Data Cleaning & Preprocessing (Day 11–20)
+
+🧼 *Transform chaos into clarity.*
 
 | Day | Topic | Tools | Task |
 |-----|-------|--------|------|
-| 21 | SQL Basics (SELECT, WHERE) | SQLite/MySQL | Query practice |
-| 22 | SQL Joins, Aggregations | SQL | Join two datasets |
-| 23 | Create Tables & Insert Data | SQL | From cleaned CSV |
-| 24 | Python + SQL (sqlite3) | sqlite3 | Automate data loading |
-| 25 | NoSQL Basics (MongoDB) | MongoDB | Intro & structure |
-| 26 | Insert + Query in MongoDB | MongoDB Compass | Import JSON file |
-| 27 | Convert SQL ↔ MongoDB | Python | Script format changes |
-| 28 | Data Transformation Logic | Python | Melt, pivot, reshape |
-| 29 | Pipeline: Raw → Structured → DB | All | Design flow |
-| 30 | Mini Project | All | Build small DB & load data |
+| 11 | Handling Missing Values | Pandas | Use `fillna`, `dropna` |
+| 12 | Duplicates & Data Types | Pandas | `drop_duplicates`, `astype()` |
+| 13 | Date & Time Cleanup | Pandas | Use `pd.to_datetime()` |
+| 14 | String Cleaning | Python | `strip()`, `lower()`, `replace()` |
+| 15 | Outlier Detection | IQR, Z-score | Remove or fix outliers |
+| 16 | Apply/map/lambda | Python | Clean columns dynamically |
+| 17 | Encoding Categories | Pandas | Label Encoding |
+| 18 | Scaling & Normalization | sklearn | Use `MinMaxScaler`, `StandardScaler` |
+| 19 | Save Processed Data | Pandas | `to_csv()`, `to_excel()` |
+| 20 | 🧹 Clean-up Project | Python, Pandas | Full clean cycle on messy dataset |
 
 ---
 
-## 📦 Module 4: Data Visualization (Day 31 - Day 40)
+## 📦 Module 3: Data Storage & Transformation (Day 21–30)
+
+🏗️ *Build pipelines, not problems.*
 
 | Day | Topic | Tools | Task |
 |-----|-------|--------|------|
-| 31 | Viz Basics & Types | Theory | Match chart to data |
-| 32 | Bar, Line, Pie Charts | Matplotlib | Plot sales data |
-| 33 | Histogram, Boxplot, Scatter | Seaborn | Detect distribution/outliers |
-| 34 | Styling & Themes | Seaborn | Customize plot |
-| 35 | R: ggplot2 Intro | RStudio | Basic plot |
-| 36 | Power BI Setup + Basics | Power BI | Load CSV into dashboard |
-| 37 | Power BI Filters, KPIs | Power BI | Create slicers |
-| 38 | Dashboard Design Principles | Power BI | Layout practice |
-| 39 | Interactive Visuals | Power BI | Drill-downs, tooltips |
-| 40 | Final Viz Project | All | Complete dashboard project |
+| 21 | SQL Basics (SELECT, WHERE) | SQLite / MySQL | Query data |
+| 22 | SQL Joins & Aggregations | SQL | Combine datasets |
+| 23 | Create Tables & Insert | SQL | From cleaned CSV |
+| 24 | SQL in Python | sqlite3 | Automate queries |
+| 25 | NoSQL Overview | MongoDB | Understand collections |
+| 26 | JSON in MongoDB | MongoDB Compass | Import & query JSON |
+| 27 | SQL ↔ MongoDB Conversion | Python | Create format converter |
+| 28 | Data Transformation Logic | Pandas | `melt()`, `pivot()`, reshape |
+| 29 | Pipeline Design | All Tools | Raw → Structured → DB |
+| 30 | 🧱 DB Mini Project | Python + SQL/Mongo | ETL pipeline on real dataset |
 
 ---
 
-## 📦 Module 5: Statistical Data Analysis with R (Day 41 - Day 50)
+## 📦 Module 4: Data Visualization (Day 31–40)
+
+📈 *When your data finally talks.*
 
 | Day | Topic | Tools | Task |
 |-----|-------|--------|------|
-| 41 | R Basics: Dataframes, Vectors | R | Create & manipulate |
-| 42 | Mean, Median, SD, Variance | R | Compute stats |
-| 43 | Histograms, Boxplots | R (ggplot2) | Explore distribution |
-| 44 | Correlation & Covariance | R | Analyze relationship |
-| 45 | Linear Regression | R | Plot line fit |
-| 46 | Logistic Regression | R | Binary prediction |
+| 31 | Chart Types & Choosing the Right One | - | Match chart to question |
+| 32 | Bar, Line, Pie Charts | Matplotlib | Plot product sales |
+| 33 | Histogram, Boxplot, Scatter | Seaborn | Explore data distribution |
+| 34 | Styling & Themes | Seaborn | Custom palettes & layouts |
+| 35 | Visualization in R | ggplot2 | Intro to grammar of graphics |
+| 36 | Power BI Setup + Import | Power BI | Load CSV & explore |
+| 37 | Power BI: Filters, KPIs, Cards | Power BI | Build interactive dashboard |
+| 38 | Dashboard UX Design | Power BI | Apply layout principles |
+| 39 | Interactive Visuals | Power BI | Drill-downs, slicers, tooltips |
+| 40 | 🎨 Viz Project | All Tools | One dataset, many views |
+
+---
+
+## 📦 Module 5: Statistical Analysis with R (Day 41–50)
+
+📊 *Turning numbers into insights.*
+
+| Day | Topic | Tools | Task |
+|-----|-------|--------|------|
+| 41 | R Syntax, Dataframes & Vectors | RStudio | Data manipulation |
+| 42 | Descriptive Statistics | R | Mean, median, SD |
+| 43 | Graphical Analysis | ggplot2 | Histograms, Boxplots |
+| 44 | Correlation & Covariance | R | Relationships between variables |
+| 45 | Linear Regression | R | Line fitting + interpretation |
+| 46 | Logistic Regression | R | Classification intro |
 | 47 | Hypothesis Testing | R | t-test, chi-square |
-| 48 | ANOVA | R | Compare groups |
-| 49 | Data Interpretation | R | Business reasoning |
-| 50 | Stats Mini Project | R | Report + Viz |
+| 48 | ANOVA | R | Compare multiple groups |
+| 49 | Interpret Business Outcomes | R | Apply stats to decisions |
+| 50 | 📊 Stats Mini Project | R | Use-case driven report with viz |
 
 ---
 
-## 📦 Module 6: NLP for Data Analytics (Day 51 - Day 60)
+## 📦 Module 6: Natural Language Processing (Day 51–60)
+
+🧠 *Make text data your ally.*
 
 | Day | Topic | Tools | Task |
 |-----|-------|--------|------|
-| 51 | What is NLP? + Text Cleaning | NLTK | Remove stopwords, lowercase |
-| 52 | Tokenization & Lemmatization | spaCy | Preprocess text corpus |
-| 53 | Stemming | NLTK | Apply stemmer |
-| 54 | Bag of Words & TF-IDF | sklearn | Extract features |
-| 55 | WordCloud & Frequency Dist | WordCloud | Plot common words |
-| 56 | Sentiment Analysis | TextBlob/VADER | Review polarity |
-| 57 | Named Entity Recognition | spaCy | Identify people/orgs |
-| 58 | Topic Modeling | LDA | Discover hidden topics |
-| 59 | Text Classification | sklearn | Spam classifier |
-| 60 | NLP Mini Project | All | Analyze reviews/chat logs |
+| 51 | Intro to NLP + Text Cleaning | NLTK | Clean raw reviews |
+| 52 | Tokenization & Lemmatization | spaCy | Build clean corpus |
+| 53 | Stemming | NLTK | Compare to lemmatization |
+| 54 | Text Vectorization | sklearn | Bag of Words + TF-IDF |
+| 55 | WordCloud & Frequency Plots | WordCloud | Common word patterns |
+| 56 | Sentiment Analysis | TextBlob, VADER | Classify polarity |
+| 57 | Named Entity Recognition | spaCy | Extract names, places |
+| 58 | Topic Modeling | LDA | Identify key themes |
+| 59 | Text Classification | sklearn | Train spam filter |
+| 60 | 💬 NLP Project | All | Analyze customer reviews/chat logs |
 
 ---
 
-## 📦 Module 7: Machine Learning for Analysts (Day 61 - Day 70)
+## 📦 Module 7: Machine Learning for Analysts (Day 61–70)
+
+🤖 *Models that predict, explain, and empower.*
 
 | Day | Topic | Tools | Task |
 |-----|-------|--------|------|
-| 61 | ML Basics: Supervised vs Unsupervised | - | Identify use cases |
-| 62 | Regression (Linear) | sklearn | Predict price/sales |
-| 63 | Classification (Logistic, KNN) | sklearn | Classify emails/users |
-| 64 | Model Evaluation | sklearn | Accuracy, confusion matrix |
-| 65 | Clustering (KMeans) | sklearn | Group customers |
-| 66 | PCA & Dimensionality Reduction | sklearn | Visualize in 2D |
-| 67 | Train/Test Split & Pipelines | sklearn | Model workflow |
-| 68 | R caret intro | R | Compare R vs Python ML |
-| 69 | Cross-validation | sklearn | GridSearchCV |
-| 70 | ML Mini Project | All | Build predictive model |
+| 61 | ML Theory: Supervised vs Unsupervised | - | Map business problems |
+| 62 | Linear Regression | sklearn | Predict price/sales |
+| 63 | Logistic Regression, KNN | sklearn | Predict categories |
+| 64 | Model Evaluation Metrics | sklearn | Accuracy, F1, confusion matrix |
+| 65 | Clustering with KMeans | sklearn | Group similar users |
+| 66 | PCA + Feature Reduction | sklearn | Visualize in 2D |
+| 67 | Model Workflow | sklearn | Train/Test split + Pipelines |
+| 68 | ML in R (caret) | R | Cross-tool comparison |
+| 69 | Hyperparameter Tuning | sklearn | GridSearchCV |
+| 70 | 🧠 ML Capstone | Python/R | Build predictive model + report |
 
 ---
 
-## 📦 Module 8: Portfolio & Career Prep (Day 71 - Day 80)
+## 📦 Module 8: Portfolio & Career Launch (Day 71–80)
+
+🚀 *Time to show the world.*
 
 | Day | Topic | Tools | Task |
 |-----|-------|--------|------|
-| 71 | Project Selection | All | Choose datasets |
-| 72 | Project Execution Planning | All | Timeline + roles |
-| 73 | GitHub Portfolio Setup | GitHub | Push notebooks & reports |
-| 74 | Readme Writing | Markdown | Describe your projects |
-| 75 | Resume Building | Word/Canva | Highlight tools used |
-| 76 | LinkedIn Optimization | LinkedIn | Project post |
-| 77 | MCQs + Interview Qs (SQL/Python) | Manual | Practice sheet |
-| 78 | Power BI Dashboard Publishing | Power BI | Shareable dashboard |
-| 79 | Final Project Wrap-up | All | Polish deliverables |
-| 80 | Career Goal Review | All | Decide next step |
+| 71 | Final Project Selection | All | Define scope + impact |
+| 72 | Execution Planning | All | Timeline, Git structure |
+| 73 | GitHub Portfolio Setup | GitHub | Push notebooks, organize repos |
+| 74 | Writing a Strong ReadMe | Markdown | Project overview & usage |
+| 75 | Resume Enhancement | Word/Canva | Showcase tools + projects |
+| 76 | LinkedIn Optimization | LinkedIn | Project post + keywords |
+| 77 | Interview Prep (SQL/Python) | Manual | MCQs + discussion sheet |
+| 78 | Dashboard Deployment | Power BI | Publish live dashboard |
+| 79 | Final Project Wrap-up | All | Polish & submit deliverables |
+| 80 | 🎯 Career Planning & Review | All | Reflect + map next steps |
 
 ---
 
-## 🌟 Final Result
+## 🌟 Final Outcome: You Become a Job-Ready Data Analyst
 
-You become a complete **Data Analyst**:  
-✔️ Skilled in Data Cleaning, EDA, SQL, NLP, Machine Learning  
-✔️ Projects in GitHub Portfolio  
-✔️ Resume, Power BI dashboards, Job-ready  
+✔️ **Hands-on Skills:** Data Collection, Cleaning, SQL, Viz, R, NLP, ML  
+✔️ **Portfolio:** 8+ Projects on GitHub + Live Dashboards  
+✔️ **Career Toolkit:** Resume, LinkedIn, Interview-ready  
+✔️ **Capstone Project:** Showcases full-stack analysis pipeline
