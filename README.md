@@ -280,6 +280,9 @@ Here's the new table at the top, summarizing the holiday and exam days. Please n
 ## 🌟 Final Outcome: You Become a Job-Ready Data Analyst
 
 ✔️ **Hands-on Skills:** Data Collection, Cleaning, SQL, Viz, R, NLP, ML
+
 ✔️ **Portfolio:** 8+ Projects on GitHub + Live Dashboards
+
 ✔️ **Career Toolkit:** Resume, LinkedIn, Interview-ready
+
 ✔️ **Capstone Project:** Showcases full-stack analysis pipeline
