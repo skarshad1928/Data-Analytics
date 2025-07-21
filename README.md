@@ -2,20 +2,17 @@ Here's the new table at the top, summarizing the holiday and exam days. Please n
 
 ***
 
-### 📅 Holiday & Exam Schedule Considerations (Estimated)
+| Module No. | Module Name                           | Total Hours | Daily Avg (Approx) | Start Date   | End Date     |
+| ---------- | ------------------------------------- | ----------- | ------------------ | ------------ | ------------ |
+| 1️⃣        | Data Collection & Web Scraping        | 66 hrs      | 2 hrs/day          | Jul 23, 2025 | Aug 24, 2025 |
+| 2️⃣        | Data Cleaning & Preprocessing         | 84 hrs      | 2.55 hrs/day       | Aug 25, 2025 | Sep 26, 2025 |
+| 3️⃣        | Data Storage & Transformation (SQL)   | 99 hrs      | 3 hrs/day          | Sep 27, 2025 | Oct 29, 2025 |
+| 4️⃣        | Data Visualization (Power BI/Tableau) | 66 hrs      | 2 hrs/day          | Oct 30, 2025 | Dec 1, 2025  |
+| 5️⃣        | Statistical Analysis with R           | 99 hrs      | 3 hrs/day          | Dec 2, 2025  | Jan 3, 2026  |
+| 6️⃣        | NLP Basics                            | 84 hrs      | 2.55 hrs/day       | Jan 4, 2026  | Feb 5, 2026  |
+| 7️⃣        | ML for Data Analysts                  | 132 hrs     | 4 hrs/day          | Feb 6, 2026  | Mar 10, 2026 |
+| 8️⃣        | Portfolio + Interview Prep            | 49.5 hrs    | 1.5 hrs/day        | Mar 11, 2026 | Apr 12, 2026 |
 
-* **Public Holidays (India - 2025/2026, within schedule timeframe):**
-    * **August 15, 2025 (Friday):** Independence Day
-    * **October 2, 2025 (Thursday):** Gandhi Jayanti
-    * **October 24-25, 2025 (Friday-Saturday):** Diwali (Dates may vary slightly, assumed for planning)
-    * **December 25, 2025 (Thursday):** Christmas
-    * **January 26, 2026 (Monday):** Republic Day
-    * *Note: Specific regional holidays are not included. Please cross-reference with your local calendar.*
-
-* **Exam Days:**
-    * *No specific exam days are mentioned in the provided schedule. If applicable, these would need to be accounted for separately to avoid overlap with study days.*
-
-***
 
 # 📊 Full Stack Insights Analyst – 120-Day Career Launchpad
 
