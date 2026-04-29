@@ -171,7 +171,7 @@ It reflects a real-world scenario where data-driven decisions improve financial 
 ## 📬 Contact
 
 For any queries or collaboration:
-📧 Email: [your-email@example.com](mailto:your-email@example.com)
+📧 Email: [your-email@example.com](mailto:shaikarshad9874@gmail.com)
 🔗 LinkedIn / GitHub: (add your links)
 
 ---
